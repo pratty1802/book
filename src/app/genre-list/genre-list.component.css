@@ -1,0 +1,77 @@
+.container {
+    background-image: url("../../assets/Pattern.svg");
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.heading-1 {
+    color: #5656e7;
+    font-size: 48px;
+    font-family: Montserrat-SemiBold;
+}
+
+.heading-2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Montserrat-SemiBold;
+    color: #333333;
+}
+
+.row {
+    margin: 0 -16px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: none;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+@media screen and (max-width: 780px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+.card{
+    margin: 20px;
+    padding: 0 16px;
+    height: 50px;
+    box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+    background-color: white;
+    color: black;
+}
+
+.card-icon{
+    background-image: url('../../assets/Drama.svg');
+    background-size: cover;
+    float: left;
+    margin-top: 4px;
+}
+
+.card-icon-right{
+    background-image: url('../../assets/Next.svg');
+    background-size: cover;
+    float: right;
+    margin-top: 4px;
+}
+
+.center-align{
+    display: inline-flex;
+    align-items: center;
+}
+
+.genre-font{
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: Montserrat-Regular;
+}
+

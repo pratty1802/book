@@ -1,0 +1,23 @@
+.card{
+    height: 162px;
+    border-radius: 8px;
+    width: 114px;
+    box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+    display: block;
+    margin: auto;
+}
+
+.card-container{
+    margin-bottom: 20px ;
+}
+
+.img-caption{
+    width: 114px;
+    margin: auto;
+    font-size: 12px;
+}
+
+.subtitle{
+    color: #a0a0a0;
+}
+

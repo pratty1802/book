@@ -1,0 +1,9 @@
+<!-- <div> -->
+<div (click)="openBook()" class="card-container">
+    <img class="card" [src]="book.formats['image/jpeg']">
+    <div class="img-caption">
+        <p *ngIf="book.title">{{book.title}}</p>
+        <p class="subtitle" *ngIf="book.authors[0]">{{getName(book.authors[0].name)}}</p>
+    </div>
+</div>
+

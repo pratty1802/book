@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url("./assets/Montserrat/Montserrat-SemiBold.ttf");
+  }
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("./assets/Montserrat/Montserrat-Regular.ttf");
+  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #f8f7ff; font-family: Montserrat-Regular; }

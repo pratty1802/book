@@ -1,0 +1,17 @@
+<div class="container">
+    <h1 class="heading-1">Gutenberg Project</h1>
+    <h2 class="heading-2">A social cataloging website that allows you to freely search its database of books, annotations, and reviews.</h2>
+    <div class="row">
+        <div  *ngFor="let genre of genre_list" class="column">
+            <mat-card [routerLink]="['/books', genre]" class="card">
+                <span>  
+                    <span mat-card-avatar class="card-icon-right"></span>
+                </span>
+                <span class="center-align">
+                    <span [style.background-image]="'url(../../assets/'+ genre +'.svg)'" mat-card-avatar class="card-icon"></span>
+                    <span class="genre-font">{{genre | uppercase}}</span>
+                </span>
+            </mat-card>
+        </div>
+    </div>
+</div>
