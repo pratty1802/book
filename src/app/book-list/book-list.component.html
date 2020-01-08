@@ -1,11 +1,11 @@
 <div class="container">
     <div class="header">
-        <img [routerLink]="['/genre']" src="../../assets/Back.svg"/>
+        <img [routerLink]="['/genre']" src="./assets/Back.svg"/>
         <h2 class="heading">{{genre}}</h2>
     </div>
     <div class="search">
-        <img *ngIf="searchQuery.length!=0" (click)="clearInput()" class="cancel" src="../../assets/Cancel.svg"/>
-        <img class="search-icon" src="../../assets/Search.svg"/>
+        <img *ngIf="searchQuery.length!=0" (click)="clearInput()" class="cancel" src="./assets/Cancel.svg"/>
+        <img class="search-icon" src="./assets/Search.svg"/>
         <input type="text" [(ngModel)]="searchQuery" (input)="filterBooks()" placeholder="Search">
     </div>
     <div class="row">
